@@ -6,7 +6,7 @@
   "scripts": {
     "start": "webpack serve --mode development --config webpack.config.js --open --hot",
     "predeploy": "webpack --mode production --config webpack.config.js",
-    "deploy": "gh-pages -b master -d build",
+    "deploy": "gh-pages -b master -d dist",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
